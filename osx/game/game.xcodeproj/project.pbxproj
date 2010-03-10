@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1A9B13C11474ECB00F04B26 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A9B13B11474ECB00F04B26 /* GLUT.framework */; };
+		C1A9B13E11474ECB00F04B26 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A9B13D11474ECB00F04B26 /* OpenGL.framework */; };
+		C1A9B14611474EE100F04B26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1A9B14511474EE100F04B26 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1A9B13311474E9E00F04B26 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A9B13611474E9E00F04B26 /* game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "game-Info.plist"; sourceTree = "<group>"; };
+		C1A9B13B11474ECB00F04B26 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		C1A9B13D11474ECB00F04B26 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		C1A9B14511474EE100F04B26 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A9B13111474E9E00F04B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A9B13C11474ECB00F04B26 /* GLUT.framework in Frameworks */,
+				C1A9B13E11474ECB00F04B26 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1A9B12111474E8700F04B26 = {
+			isa = PBXGroup;
+			children = (
+				C1A9B13411474E9E00F04B26 /* Products */,
+				C1A9B13611474E9E00F04B26 /* game-Info.plist */,
+				C1A9B13B11474ECB00F04B26 /* GLUT.framework */,
+				C1A9B13D11474ECB00F04B26 /* OpenGL.framework */,
+				C1A9B14511474EE100F04B26 /* main.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A9B13411474E9E00F04B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9B13311474E9E00F04B26 /* game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A9B13211474E9E00F04B26 /* game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A9B13911474E9F00F04B26 /* Build configuration list for PBXNativeTarget "game" */;
+			buildPhases = (
+				C1A9B12F11474E9E00F04B26 /* Resources */,
+				C1A9B13011474E9E00F04B26 /* Sources */,
+				C1A9B13111474E9E00F04B26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = game;
+			productName = game;
+			productReference = C1A9B13311474E9E00F04B26 /* game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A9B12311474E8700F04B26 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C1A9B12611474E8700F04B26 /* Build configuration list for PBXProject "game" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = C1A9B12111474E8700F04B26;
+			productRefGroup = C1A9B13411474E9E00F04B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A9B13211474E9E00F04B26 /* game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A9B12F11474E9E00F04B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A9B13011474E9E00F04B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A9B14611474EE100F04B26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1A9B12411474E8700F04B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C1A9B12511474E8700F04B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		C1A9B13711474E9F00F04B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "game-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = game;
+			};
+			name = Debug;
+		};
+		C1A9B13811474E9F00F04B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "game-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = game;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A9B12611474E8700F04B26 /* Build configuration list for PBXProject "game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A9B12411474E8700F04B26 /* Debug */,
+				C1A9B12511474E8700F04B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A9B13911474E9F00F04B26 /* Build configuration list for PBXNativeTarget "game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A9B13711474E9F00F04B26 /* Debug */,
+				C1A9B13811474E9F00F04B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A9B12311474E8700F04B26 /* Project object */;
+}

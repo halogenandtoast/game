@@ -1,0 +1,99 @@
+Tgame
+v7
+r0
+t289886306.763447
+cCheck dependencies
+cProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist game-Info.plist
+cCompileC build/game.build/Debug/game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game normal i386
+cTouch /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004AF07C310000000000040130
+t1257274417
+s262448
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
+t1268193506
+s102
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
+t1268193147
+s825
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game
+t1268193506
+s9956
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo
+t1268193147
+s8
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/game.LinkFileList
+c000000004B97177B000000000000006C
+t1268193147
+s108
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o
+t1268193505
+s4180
+
+N/Users/halogenandtoast/Desktop/server/osx/game/main.cpp
+c000000004B9718ED000000000000022C
+t1268193517
+s556
+
+Ngame-Info.plist
+c000000004B97171E000000000000037F
+t1268193054
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies289886306#289886306#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/game.build/Debug/game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s289886306.186111
+e289886306.187156
+r1
+xCompileC
+xbuild/game.build/Debug/game.build/Objects-normal/i386/main.o
+x/Users/halogenandtoast/Desktop/server/osx/game/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/game/main.cpp289886306#289886306#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp4300885448#1220"    cd /Users/halogenandtoast/Desktop/server/osx/game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-generated-files.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-own-target-headers.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-all-target-headers.hmap -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-project-headers.hmap -F/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -I/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/include -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o0#
+
+CLd /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game normal i386
+s289886306.187218
+e289886306.758397
+r1
+xLd
+x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game
+xnormal
+xi386
+lSLF07#2@92"Link /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game289886306#289886306#0(0"0(0#0#0"4300885448#512"    cd /Users/halogenandtoast/Desktop/server/osx/game    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -filelist /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/game.LinkFileList -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game0#
+
+CProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist game-Info.plist
+s289885947.663702
+e289885947.671264
+r1
+xProcessInfoPlistFile
+x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
+xgame-Info.plist
+lSLF07#2@23"Process game-Info.plist289885947#289885947#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/game/game-Info.plist4300885448#325"    cd /Users/halogenandtoast/Desktop/server/osx/game    builtin-infoPlistUtility game-Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist0#
+
+CTouch /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
+s289886306.758493
+e289886306.763404
+r1
+xTouch
+x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
+lSLF07#2@73"Touch /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app289886306#289886306#0(0"0(0#0#0"4300885448#144"    cd /Users/halogenandtoast/Desktop/server/osx/game    /usr/bin/touch -c /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app0#
+
