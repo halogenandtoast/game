@@ -1,0 +1,772 @@
+Tsdl
+v7
+r0
+t289969798.278730
+cCheck dependencies
+cProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch.gch sdl_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch.gch sdl_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch.gch sdl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch.gch sdl_Prefix.pch normal i386 c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch.gch sdl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch.gch sdl_Prefix.pch normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl normal x86_64
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl normal i386
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal ppc c com.apple.compilers.gcc.4_0
+cCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal ppc c com.apple.compilers.gcc.4_0
+cLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl normal ppc
+cCreateUniversalBinary /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/MacOS/sdl normal "x86_64 i386 ppc"
+cPBXCp build/Debug/sdl.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+cTouch /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004ADD32BD0000000000000CA1
+t1256010429
+s3233
+
+N/Library/Frameworks/SDL.framework
+c000000004ADD32BD00000000000000CC
+t1256010429
+s204
+
+N/Library/Frameworks/SDL.framework/SDL
+c000000004ADD32BD0000000000156068
+t1256010429
+s1400936
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004AF07C310000000000040130
+t1257274417
+s262448
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/../../../../../../../../../../System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/English.lproj/InfoPlist.strings
+c000000004B985EF200000000000001CC
+t1268276978
+s460
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.h
+c000000004B985EF20000000000000176
+t1268276978
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m
+c000000004B985EF20000000000002C00
+t1268276978
+s11264
+i"SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c
+c000000004B985EF20000000000002AD0
+t1268276978
+s10960
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<sys/time.h>
+i<GLUT/glut.h>
+i"atlantis.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.h
+c000000004B985EF20000000000000A2E
+t1268276978
+s2606
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c
+c000000004B985EF2000000000000CB2C
+t1268276978
+s52012
+i<math.h>
+i<GLUT/glut.h>
+i"atlantis.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c
+c000000004B985EF2000000000000842D
+t1268276978
+s33837
+i<GLUT/glut.h>
+i<math.h>
+i"atlantis.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c
+c000000004B985EF200000000000015C1
+t1268276978
+s5569
+i<math.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i"atlantis.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c
+c000000004B985EF2000000000000BC17
+t1268276978
+s48151
+i<GLUT/glut.h>
+i<math.h>
+i"atlantis.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app
+t1268276998
+s102
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Frameworks/SDL.framework
+t1268276998
+s204
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Info.plist
+t1268276988
+s955
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/MacOS/sdl
+t1268276998
+s428636
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/PkgInfo
+t1268276988
+s8
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1268276988
+s460
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/SDLMain.o
+t1268276996
+s40488
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/atlantis.o
+t1268276996
+s19240
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/dolphin.o
+t1268276996
+s104124
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/main.o
+t1268276996
+s16204
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl
+t1268276997
+s148600
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl.LinkFileList
+c000000004B985EFC00000000000002EB
+t1268276988
+s747
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/shark.o
+t1268276996
+s69636
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/swim.o
+t1268276997
+s11808
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/whale.o
+t1268276997
+s97276
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/SDLMain.o
+t1268276997
+s45136
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/atlantis.o
+t1268276997
+s25448
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/dolphin.o
+t1268276997
+s120148
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/main.o
+t1268276997
+s18468
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl
+t1268276998
+s137820
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl.LinkFileList
+c000000004B985EFC00000000000002E4
+t1268276988
+s740
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/shark.o
+t1268276997
+s81760
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/swim.o
+t1268276997
+s13600
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/whale.o
+t1268276997
+s112556
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/SDLMain.o
+t1268276996
+s42412
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/atlantis.o
+t1268276996
+s17184
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/dolphin.o
+t1268276996
+s70292
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/main.o
+t1268276995
+s17772
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl
+t1268276997
+s134272
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl.LinkFileList
+c000000004B985EFC00000000000002F9
+t1268276988
+s761
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/shark.o
+t1268276996
+s48952
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/swim.o
+t1268276996
+s10572
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/whale.o
+t1268276996
+s66104
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/main.c
+c000000004B985EF20000000000000FEE
+t1268276978
+s4078
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i"SDL.h"
+
+N/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch
+c000000004B985EF200000000000000AF
+t1268276978
+s175
+i"SDL.h"
+i<Cocoa/Cocoa.h>
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch.gch
+t1268276992
+s2469988
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch.gch
+t1268276992
+s54962800
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch.gch
+t1268276988
+s4323760
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch.gch
+t1268276993
+s2261036
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch.gch
+t1268276992
+s36959044
+
+N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch.gch
+t1268276995
+s35312256
+
+NInfo.plist
+c000000004B985EF2000000000000040F
+t1268276978
+s1039
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies289969788#289969788#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s289969796.274144
+e289969796.481299
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/SDLMain.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m289969796#289969796#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m4300885448#1323"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/SDLMain.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal i386 c com.apple.compilers.gcc.4_0
+s289969796.549937
+e289969796.629763
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/atlantis.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+lSLF07#2@73"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969796#289969796#0(707"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#99#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#251#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#403#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#555#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c4300885448#1324"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/atlantis.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal i386 c com.apple.compilers.gcc.4_0
+s289969796.629880
+e289969796.806351
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/dolphin.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@72"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c289969796#289969796#0(0"0(0#0#64"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c4300885448#1322"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/dolphin.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal i386 c com.apple.compilers.gcc.4_0
+s289969796.481406
+e289969796.549835
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/main.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/main.c289969796#289969796#0(0"0(0#0#52"/Users/halogenandtoast/Desktop/server/osx/sdl/main.c4300885448#1307"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal i386 c com.apple.compilers.gcc.4_0
+s289969796.806454
+e289969796.943011
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/shark.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c289969796#289969796#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c4300885448#1318"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/shark.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal i386 c com.apple.compilers.gcc.4_0
+s289969796.943109
+e289969797.016058
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/swim.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c289969796#289969797#0(0"0(0#0#61"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c4300885448#1316"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/swim.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/i386/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal i386 c com.apple.compilers.gcc.4_0
+s289969797.016165
+e289969797.188880
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/i386/whale.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c289969797#289969797#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c4300885448#1318"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/whale.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s289969797.062690
+e289969797.281738
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/SDLMain.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m289969797#289969797#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m4300885448#1317"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/SDLMain.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.333875
+e289969797.416087
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/atlantis.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+lSLF07#2@73"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969797#289969797#0(707"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969797#99#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969797#251#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969797#403#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969797#555#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c4300885448#1318"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/atlantis.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.416193
+e289969797.610093
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/dolphin.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@72"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c289969797#289969797#0(0"0(0#0#64"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c4300885448#1316"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/dolphin.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.281905
+e289969797.333775
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/main.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/main.c289969797#289969797#0(0"0(0#0#52"/Users/halogenandtoast/Desktop/server/osx/sdl/main.c4300885448#1301"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.483724
+e289969797.646602
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/shark.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c289969797#289969797#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c4300885448#1312"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/shark.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.610192
+e289969797.706987
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/swim.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c289969797#289969797#0(0"0(0#0#61"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c4300885448#1310"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/swim.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/ppc/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal ppc c com.apple.compilers.gcc.4_0
+s289969797.646701
+e289969797.802354
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/ppc/whale.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c289969797#289969797#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c4300885448#1312"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/whale.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s289969795.729096
+e289969796.041824
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/SDLMain.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m289969795#289969796#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m4300885448#1329"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969795.926140
+e289969796.040196
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/atlantis.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+o/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
+lSLF07#2@73"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969795#289969796#0(707"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#99#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#251#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#403#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness289969796#555#152#0(6@65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c289969778#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#65"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c4300885448#1330"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/atlantis.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969796.040290
+e289969796.215440
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/dolphin.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c289969796#289969796#0(0"0(0#0#64"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c3401403401131030528#1328"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/dolphin.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/sdl/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969795.730175
+e289969795.926032
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/main.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/main.c289969795#289969795#0(0"0(0#0#52"/Users/halogenandtoast/Desktop/server/osx/sdl/main.c4300885448#1313"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969796.041906
+e289969796.183291
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/shark.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c289969796#289969796#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c4300885448#1324"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/shark.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969796.183395
+e289969796.274034
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/swim.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c289969796#289969796#0(0"0(0#0#61"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c4300885448#1322"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/swim.o0#
+
+CCompileC build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c normal x86_64 c com.apple.compilers.gcc.4_2
+s289969796.215542
+e289969796.373017
+r1
+xCompileC
+xbuild/sdl.build/Debug/sdl.build/Objects-normal/x86_64/whale.o
+x/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c289969796#289969796#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c4300885448#1324"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/whale.o0#
+
+CCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s289969788.374178
+e289969788.652445
+r1
+xCopyStringsFile
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings289969788#289969788#0(0"0(0#0#77"/Users/halogenandtoast/Desktop/server/osx/sdl/English.lproj/InfoPlist.strings4300885448#376"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/MacOS/sdl normal "x86_64 i386 ppc"
+s289969798.074114
+e289969798.137348
+r1
+xCreateUniversalBinary
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/MacOS/sdl
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@85"CreateUniversalBinary build/Debug/sdl.app/Contents/MacOS/sdl normal "x86_64 i386 ppc"289969798#289969798#0(0"0(0#0#61"/Users/halogenandtoast/Desktop/server/osx/sdl/x86_64 i386 ppc4300885448#479"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    /usr/bin/lipo -create /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl -output /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/MacOS/sdl0#
+
+CLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl normal i386
+s289969797.188983
+e289969797.483624
+r1
+xLd
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl
+xnormal
+xi386
+lSLF07#2@106"Link /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl289969797#289969797#0(0"0(0#0#0"4300885448#715"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/i386/sdl0#
+
+CLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl normal ppc
+s289969797.802454
+e289969798.074014
+r1
+xLd
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl
+xnormal
+xppc
+lSLF07#2@105"Link /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl289969797#289969798#0(0"0(0#0#0"4300885448#712"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/ppc/sdl0#
+
+CLd /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl normal x86_64
+s289969796.373113
+e289969797.062561
+r1
+xLd
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl
+xnormal
+xx86_64
+lSLF07#2@108"Link /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl289969796#289969797#0(0"0(0#0#0"4300885448#721"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/Objects-normal/x86_64/sdl0#
+
+CPBXCp build/Debug/sdl.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+s289969798.137518
+e289969798.247545
+r1
+xPBXCp
+xbuild/Debug/sdl.app/Contents/Frameworks/SDL.framework
+x/Library/Frameworks/SDL.framework
+lSLF07#2@38"Copy /Library/Frameworks/SDL.framework289969798#289969798#0(0"0(0#0#33"/Library/Frameworks/SDL.framework4300885448#321"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/SDL.framework /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Info.plist Info.plist
+s289969788.342679
+e289969788.374079
+r1
+xProcessInfoPlistFile
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist289969788#289969788#0(0"0(0#0#56"/Users/halogenandtoast/Desktop/server/osx/sdl/Info.plist28147961534414964#315"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    builtin-infoPlistUtility Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch.gch sdl_Prefix.pch normal i386 c com.apple.compilers.gcc.4_0
+s289969792.322814
+e289969792.626939
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@25"Precompile sdl_Prefix.pch289969792#289969792#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1212"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cdiyjwvaqlophocuvytcfidcmmff/sdl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch.gch sdl_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s289969788.652605
+e289969792.573347
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile sdl_Prefix.pch289969788#289969792#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1226"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-cfclghaxcwajozdcjugotgmuewec/sdl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch.gch sdl_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s289969788.653429
+e289969789.028807
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile sdl_Prefix.pch289969788#289969789#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1216"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-clrfmgewzeahsmbyweomuchxjpnh/sdl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch.gch sdl_Prefix.pch normal ppc c com.apple.compilers.gcc.4_0
+s289969792.627058
+e289969793.329674
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@25"Precompile sdl_Prefix.pch289969792#289969793#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1207"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-ekqzxucmccwatzdmovyemnuiwyyu/sdl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch.gch sdl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s289969789.028921
+e289969792.322644
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@25"Precompile sdl_Prefix.pch289969789#289969792#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1222"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gqewmcdtpnrmjmdaijydjiipkyxy/sdl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch.gch sdl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s289969792.573464
+e289969795.728891
+r1
+xProcessPCH
+x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch.gch
+xsdl_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@25"Precompile sdl_Prefix.pch289969792#289969795#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch4300885448#1217"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/sdl.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl/build/sdl.build/Debug/sdl.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl/sdl_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_Prefix-gscoqarpgqwlklfihxpsyaerbljw/sdl_Prefix.pch.gch0#
+
+CTouch /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app
+s289969798.247634
+e289969798.278664
+r1
+xTouch
+x/Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app
+lSLF07#2@71"Touch /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app289969798#289969798#0(0"0(0#0#0"4300885448#141"    cd /Users/halogenandtoast/Desktop/server/osx/sdl    /usr/bin/touch -c /Users/halogenandtoast/Desktop/server/osx/sdl/build/Debug/sdl.app0#
+

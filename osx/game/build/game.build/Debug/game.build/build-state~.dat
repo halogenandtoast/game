@@ -1,15 +1,42 @@
 Tgame
 v7
 r0
-t289885947.722414
+t290056326.454688
 cCheck dependencies
 cProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist game-Info.plist
+cCpResource build/Debug/game.app/Contents/Resources/cube.raw cube.raw
+cCpResource build/Debug/game.app/Contents/Resources/test.raw test.raw
 cCompileC build/game.build/Debug/game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
 
 N/System/Library/Frameworks/GLUT.framework/GLUT
 c000000004A12475500000000001A2920
 t1242711893
 s1714464
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
 c000000004AF07C310000000000040130
@@ -21,30 +48,61 @@ t2
 s0
 
 N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
-t1268193147
-s825
+t1268363526
+s829
 
 N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game
 t2
 s0
 
 N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo
-t1268193147
+t1268363526
 s8
 
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources/cube.raw
+t1268363526
+s56
+
+N/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources/test.raw
+t1268363526
+s3012
+
 N/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/game.LinkFileList
-c000000004B97177B000000000000006C
-t1268193147
+c000000004B99B106000000000000006C
+t1268363526
 s108
 
 N/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o
 t2
 s0
 
+N/Users/halogenandtoast/Desktop/server/osx/game/cube.raw
+c000000004B9865AF0000000000000038
+t1268278703
+s56
+
 N/Users/halogenandtoast/Desktop/server/osx/game/main.cpp
-c000000004B97177B0000000000000039
-t1268193147
-s57
+c000000004B99B0F5000000000000055D
+t1268363509
+s1373
+i<stdlib.h>
+i<stdio.h>
+i<GLUT/glut.h>
+
+N/Users/halogenandtoast/Desktop/server/osx/game/test.raw
+c000000004B99983C0000000000000BC4
+t1268357180
+s3012
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
 
 Ngame-Info.plist
 c000000004B97171E000000000000037F
@@ -53,11 +111,11 @@ s895
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies289885947#289885947#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies290056326#290056326#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/game.build/Debug/game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s289885947.671399
-e289885947.722342
+s290056326.375938
+e290056326.454613
 r0
 xCompileC
 xbuild/game.build/Debug/game.build/Objects-normal/i386/main.o
@@ -66,20 +124,60 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/game/main.cpp289885947#289885947#0(194"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp: In function 'int main(void*)':/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:3: error: 'printf' was not declared in this scope1(4@39"'printf' was not declared in this scope289885947#88#106#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp289885947#3#0#3#0#34"'*' was not declared in this scope0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp4300885448#1220"    cd /Users/halogenandtoast/Desktop/server/osx/game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-generated-files.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-own-target-headers.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-all-target-headers.hmap -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-project-headers.hmap -F/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -I/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/include -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o1#
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:14: error: using typedef-name 'primitive' after 'struct'
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:12: error: 'primitive' has a previous declaration here
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:14: error: invalid type in declaration before ';' token
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp: In function 'void load_primitive()':
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:21: error: cannot convert 'primitive*' to 'int*' in assignment
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 3 has type 'double'
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 4 has type 'double'
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 5 has type 'double'
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp: In function 'void display()':
+o/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:36: error: cannot convert 'int*' to 'primitive*' in assignment
+lSLF07#2@63"Compile /Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056326#290056326#0(1166"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:14: error: using typedef-name 'primitive' after 'struct'/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:12: error: 'primitive' has a previous declaration here/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:14: error: invalid type in declaration before ';' token/Users/halogenandtoast/Desktop/server/osx/game/main.cpp: In function 'void load_primitive()':/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:21: error: cannot convert 'primitive*' to 'int*' in assignment/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 3 has type 'double'/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 4 has type 'double'/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:24: warning: format '%f' expects type 'float*', but argument 5 has type 'double'/Users/halogenandtoast/Desktop/server/osx/game/main.cpp: In function 'void display()':/Users/halogenandtoast/Desktop/server/osx/game/main.cpp:36: error: cannot convert 'int*' to 'primitive*' in assignment8(4@45"Using typedef-name 'primitive' after 'struct'290056326#0#113#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#14#0#14#0#0"0(4@43"'primitive' has a previous declaration here290056326#113#111#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#12#0#12#0#0"0(4@44"Invalid type in declaration before ';' token290056326#224#112#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#14#0#14#0#0"0(4@51"Cannot convert 'primitive*' to 'int*' in assignment290056326#430#119#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#21#0#21#0#0"0(22@67"Format '%f' expects type 'float*', but argument 3 has type 'double'290056326#549#137#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#24#0#24#0#56"format '*' expects type '*', but argument * has type '*'0(22@67"Format '%f' expects type 'float*', but argument 4 has type 'double'290056326#686#137#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#24#0#24#0#56"format '*' expects type '*', but argument * has type '*'0(22@67"Format '%f' expects type 'float*', but argument 5 has type 'double'290056326#823#137#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#24#0#24#0#56"format '*' expects type '*', but argument * has type '*'0(4@51"Cannot convert 'int*' to 'primitive*' in assignment290056326#1047#119#0(6@55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp290056309#36#0#36#0#0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/game/main.cpp4300885448#1287"    cd /Users/halogenandtoast/Desktop/server/osx/game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-generated-files.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-own-target-headers.hmap -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-all-target-headers.hmap -iquote /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/game-project-headers.hmap -F/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -I/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/include -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o1#
+
+CCpResource build/Debug/game.app/Contents/Resources/cube.raw cube.raw
+s290056326.369848
+e290056326.375599
+r1
+xCpResource
+xbuild/Debug/game.app/Contents/Resources/cube.raw
+xcube.raw
+lSLF07#2@13"Copy cube.raw290056326#290056326#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/game/cube.raw4300885448#345"    cd /Users/halogenandtoast/Desktop/server/osx/game    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/halogenandtoast/Desktop/server/osx/game/cube.raw /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources0#
+
+CCpResource build/Debug/game.app/Contents/Resources/test.raw test.raw
+s290056326.370572
+e290056326.375856
+r1
+xCpResource
+xbuild/Debug/game.app/Contents/Resources/test.raw
+xtest.raw
+lSLF07#2@13"Copy test.raw290056326#290056326#0(0"0(0#0#55"/Users/halogenandtoast/Desktop/server/osx/game/test.raw4300885448#345"    cd /Users/halogenandtoast/Desktop/server/osx/game    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/halogenandtoast/Desktop/server/osx/game/test.raw /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources0#
 
 CLd /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game normal i386
-r0
+s290056281.398153
+e290056281.443633
+r1
+xLd
+x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game
+xnormal
+xi386
+lSLF07#2@92"Link /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game290056281#290056281#0(0"0(0#0#0"4300885448#620"    cd /Users/halogenandtoast/Desktop/server/osx/game    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/game/build/Debug -filelist /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/game.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game0#
 
 CProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist game-Info.plist
-s289885947.663702
-e289885947.671264
+s290056326.363259
+e290056326.369758
 r1
 xProcessInfoPlistFile
 x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
 xgame-Info.plist
-lSLF07#2@23"Process game-Info.plist289885947#289885947#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/game/game-Info.plist4300885448#325"    cd /Users/halogenandtoast/Desktop/server/osx/game    builtin-infoPlistUtility game-Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist0#
+lSLF07#2@23"Process game-Info.plist290056326#290056326#0(0"0(0#0#62"/Users/halogenandtoast/Desktop/server/osx/game/game-Info.plist4300885448#325"    cd /Users/halogenandtoast/Desktop/server/osx/game    builtin-infoPlistUtility game-Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist0#
 
 CTouch /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
-r0
+s290056281.443726
+e290056281.446468
+r1
+xTouch
+x/Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
+lSLF07#2@73"Touch /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app290056281#290056281#0(0"0(0#0#0"4300885448#144"    cd /Users/halogenandtoast/Desktop/server/osx/game    /usr/bin/touch -c /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app0#
 

@@ -1,5 +1,7 @@
-000000004b97177b0000000000000039 a0a74fa39da3b2c0305f93c345f927ca ffffffffffffffffffffffffffffffff 0 /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o
-00000000000000000000000000000000 996c99412bc6cc6dea4fd6bc60f2947e ffffffffffffffffffffffffffffffff 825 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
+00000000018bf7b00000000000003e50 c2a5b0d5a176fe5948176dbd31645296 ffffffffffffffffffffffffffffffff 0 /Users/halogenandtoast/Desktop/server/osx/game/build/game.build/Debug/game.build/Objects-normal/i386/main.o
+00000000000000000000000000000000 b66e4d6996240659cda963cd0ddbcb57 ffffffffffffffffffffffffffffffff 3012 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources/test.raw
+00000000000000000000000000000000 c64e5a5915d82b3df550327e154ce006 ffffffffffffffffffffffffffffffff 56 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Resources/cube.raw
+00000000000000000000000000000000 996c99412bc6cc6dea4fd6bc60f2947e ffffffffffffffffffffffffffffffff 829 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/Info.plist
 00000000000000000000000000000000 996c99412bc6cc6dea4fd6bc60f2947e ffffffffffffffffffffffffffffffff 8 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/PkgInfo
 ffffffffffffffffffffffffffffffff 43126055033a786c5cca48da4c3ac8ce ffffffffffffffffffffffffffffffff 0 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app
-ffffffffffffffffffffffffffffffff 658b9a5d9c673c1a2855c33c4c604b7d ffffffffffffffffffffffffffffffff 0 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game
+ffffffffffffffffffffffffffffffff be63e0d07da8dbd82e966fc960ae92da ffffffffffffffffffffffffffffffff 0 /Users/halogenandtoast/Desktop/server/osx/game/build/Debug/game.app/Contents/MacOS/game

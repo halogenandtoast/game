@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19B38301149CFF400EC5280 /* test.raw in Resources */ = {isa = PBXBuildFile; fileRef = C19B382F1149CFF400EC5280 /* test.raw */; };
 		C1A9B13C11474ECB00F04B26 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A9B13B11474ECB00F04B26 /* GLUT.framework */; };
 		C1A9B13E11474ECB00F04B26 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A9B13D11474ECB00F04B26 /* OpenGL.framework */; };
 		C1A9B14611474EE100F04B26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1A9B14511474EE100F04B26 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C19B382F1149CFF400EC5280 /* test.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.raw; sourceTree = "<group>"; };
 		C1A9B13311474E9E00F04B26 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A9B13611474E9E00F04B26 /* game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "game-Info.plist"; sourceTree = "<group>"; };
 		C1A9B13B11474ECB00F04B26 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
@@ -41,6 +43,7 @@
 				C1A9B13B11474ECB00F04B26 /* GLUT.framework */,
 				C1A9B13D11474ECB00F04B26 /* OpenGL.framework */,
 				C1A9B14511474EE100F04B26 /* main.cpp */,
+				C19B382F1149CFF400EC5280 /* test.raw */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +98,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19B38301149CFF400EC5280 /* test.raw in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
