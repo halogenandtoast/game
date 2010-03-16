@@ -37,7 +37,7 @@ void display(void)
 	current = head;
 	glPushMatrix();
 	glTranslatef(1.0f,-1.0f, -10.0f);
-	glBegin(GL_QUADS);
+	glBegin(GL_TRIANGLES);
 	while(current) {
 		printf("%f %f %f\n", current->x, current->y, current->z);
 		glVertex3f(current->x, current->y, current->z);

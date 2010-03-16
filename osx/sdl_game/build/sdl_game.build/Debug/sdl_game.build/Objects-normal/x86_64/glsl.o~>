@@ -1,0 +1,9 @@
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:1:18: error: glsl.h: No such file or directory
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:4: error: 'GLuint' does not name a type
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:5: error: 'GLuint' does not name a type
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:9: error: 'GLuint' does not name a type
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:31: error: variable or field 'cleanupGLSL' declared void
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:31: error: 'GLuint' was not declared in this scope
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:42: error: 'GLuint' does not name a type
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:101: error: 'GLuint' was not declared in this scope
+/Users/halogenandtoast/Desktop/server/osx/sdl_game/glsl.cpp:102: error: expected ',' or ';' before '{' token
