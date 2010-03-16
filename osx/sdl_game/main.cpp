@@ -97,6 +97,7 @@ static void createSurface (int fullscreen)
 static void initGL ()
 {
 	#ifdef __APPLE__    
+		// Let's look in the resources directory
 		CFBundleRef mainBundle = CFBundleGetMainBundle();
 		CFURLRef resourcesURL = CFBundleCopyResourcesDirectoryURL(mainBundle);
 		char path[PATH_MAX];
@@ -105,7 +106,6 @@ static void initGL ()
 		}
 		CFRelease(resourcesURL);
 		chdir(path);
-		std::cout << "Current Path: " << path << std::endl;
 	#endif
 	
 	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
@@ -125,6 +125,8 @@ static void drawGL ()
 	char num_str[128];
 	
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glDepthFunc(GL_LESS);
+    glEnable(GL_DEPTH_TEST);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	
