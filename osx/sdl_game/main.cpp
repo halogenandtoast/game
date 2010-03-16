@@ -172,14 +172,13 @@ static void mainLoop ()
     int nowTicks;
     
     while ( !done ) {
-		angle += 2.0f;
+		angle += 1.0f;
 		if(angle > 360) {
 			angle -= 360;
 		}
 		
 		ypos += ydir;
 		if(ypos > 3.0f || ypos < -3.0f) ydir *= -1;
-		/* Check for events */
 		while ( SDL_PollEvent (&event) ) {
 			switch (event.type) {
 
@@ -188,7 +187,14 @@ static void mainLoop ()
 				case SDL_MOUSEBUTTONDOWN:
 					break;
 				case SDL_KEYDOWN:
-					/* Any keypress quits the app... */
+					if(event.key.keysym.mod & KMOD_META) {
+						if (event.key.keysym.sym == SDLK_q) {
+							done = 1;
+						}
+					} else if (event.key.keysym.sym == SDLK_ESCAPE) {
+						done = 1;
+					}
+					break;
 				case SDL_QUIT:
 					done = 1;
 					break;
