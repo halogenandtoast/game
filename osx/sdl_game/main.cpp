@@ -133,8 +133,9 @@ static void drawGL ()
 	glPushMatrix();
 
 	glTranslatef(0.0, 0.0f, -10.0f);
-	glRotatef(180.0f, 1.0f, 0.0f, 1.0f);
-	glRotatef(angle, 0.0f, 0.0f, 1.0f);
+	glRotatef(180.0f, 0.0f, 1.0f, 0.0f);
+	glRotatef(angle, 0.0f, 1.0f, 0.0f);
+	
 	myModel1.render();
 	glPopMatrix();
 	
@@ -171,7 +172,7 @@ static void mainLoop ()
     int nowTicks;
     
     while ( !done ) {
-		angle += 5.0f;
+		angle += 2.0f;
 		if(angle > 360) {
 			angle -= 360;
 		}
