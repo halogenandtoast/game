@@ -1,930 +1,0 @@
-Tsdl_game
-v7
-r0
-t290384791.907089
-cCheck dependencies
-cProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 c com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal i386 c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal i386 c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal i386 c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal i386 c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal i386 c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal ppc c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal ppc c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal ppc c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal ppc c com.apple.compilers.gcc.4_0
-cCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal ppc c com.apple.compilers.gcc.4_0
-cPBXCp build/Debug/sdl_game.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004A769DAB00000000000000EE
-t1249287595
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
-c000000004ADD32BD0000000000000CA1
-t1256010429
-s3233
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
-c000000004A124745000000000000578C
-t1242711877
-s22412
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004A5C14A70000000000004174
-t1247548583
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004A5C14A70000000000002DF5
-t1247548583
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004A5C14A70000000000001731
-t1247548583
-s5937
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
-c000000004A73D65300000000000027BE
-t1249105491
-s10174
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
-c000000004A73D6550000000000001E17
-t1249105493
-s7703
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
-c000000004A5C14A7000000000000563E
-t1247548583
-s22078
-
-N/Library/Frameworks/SDL.framework
-c000000004ADD32BD00000000000000CC
-t1256010429
-s204
-
-N/Library/Frameworks/SDL.framework/SDL
-c000000004ADD32BD0000000000156068
-t1256010429
-s1400936
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004AF07C310000000000040130
-t1257274417
-s262448
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/../../../../../../../../../../System/Library/Frameworks/GLUT.framework/GLUT
-c000000004A12475500000000001A2920
-t1242711893
-s1714464
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/English.lproj/InfoPlist.strings
-c000000004B9EB3E100000000000001EA
-t1268691937
-s490
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.h
-c000000004B9EB3E10000000000000176
-t1268691937
-s374
-i<Cocoa/Cocoa.h>
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m
-c000000004B9EB3E10000000000002C00
-t1268691937
-s11264
-i"SDL.h"
-i"SDLMain.h"
-i<sys/param.h>
-i<unistd.h>
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c
-c000000004B9EB3E10000000000002AD0
-t1268691937
-s10960
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<math.h>
-i<sys/time.h>
-i<GLUT/glut.h>
-i"atlantis.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.h
-c000000004B9EB3E10000000000000A2E
-t1268691937
-s2606
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c
-c000000004B9EB3E1000000000000CB2C
-t1268691937
-s52012
-i<math.h>
-i<GLUT/glut.h>
-i"atlantis.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c
-c000000004B9EB3E1000000000000842D
-t1268691937
-s33837
-i<GLUT/glut.h>
-i<math.h>
-i"atlantis.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c
-c000000004B9EB3E200000000000015C1
-t1268691938
-s5569
-i<math.h>
-i<stdlib.h>
-i<GLUT/glut.h>
-i"atlantis.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c
-c000000004B9EB3E2000000000000BC17
-t1268691938
-s48151
-i<GLUT/glut.h>
-i<math.h>
-i"atlantis.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Frameworks/SDL.framework
-t1268691991
-s204
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Info.plist
-t1268691983
-s970
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/MacOS/sdl_game
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/PkgInfo
-t1268691983
-s8
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1268691983
-s490
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/SDLMain.o
-t1268691990
-s40520
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/atlantis.o
-t1268691991
-s19248
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/dolphin.o
-t1268691991
-s104140
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game.LinkFileList
-c000000004B9EB40F0000000000000354
-t1268691983
-s852
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/shark.o
-t1268691991
-s69644
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/swim.o
-t1268691991
-s11824
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/whale.o
-t1268691991
-s97284
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/SDLMain.o
-t1268691991
-s45144
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/atlantis.o
-t1268691991
-s25456
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/dolphin.o
-t1268691991
-s120156
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game.LinkFileList
-c000000004B9EB40F000000000000034D
-t1268691983
-s845
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/shark.o
-t1268691991
-s81768
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/swim.o
-t1268691991
-s13616
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/whale.o
-t1268691991
-s112564
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/SDLMain.o
-t1268691990
-s42420
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/atlantis.o
-t1268691990
-s17184
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/dolphin.o
-t1268691990
-s70308
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game
-t2
-s0
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game.LinkFileList
-c000000004B9EB40F0000000000000362
-t1268691983
-s866
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/shark.o
-t1268691990
-s48960
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/swim.o
-t1268691990
-s10588
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/whale.o
-t1268691990
-s66120
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c
-c000000004B9EB3E20000000000000FEE
-t1268691938
-s4078
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<math.h>
-i"SDL.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp
-c000000004B9EB3E20000000000000FEE
-t1268691938
-s4078
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<math.h>
-i"SDL.h"
-
-N/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch
-c000000004B9EB3E100000000000000AF
-t1268691937
-s175
-i"SDL.h"
-i<Cocoa/Cocoa.h>
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch.gch
-t1268691987
-s2469988
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch.gch
-t1268691984
-s4323760
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch.gch
-t1268691987
-s2773008
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch.gch
-t1268691984
-s4733264
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch.gch
-t1268691987
-s36959044
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch.gch
-t1268691990
-s35312256
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch.gch
-t1268691988
-s2261036
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch.gch
-t1268691987
-s2547672
-
-N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch.gch
-t1268691987
-s54962800
-
-NInfo.plist
-c000000004B9EB3E10000000000000414
-t1268691937
-s1044
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies290384783#290384783#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s290384790.757150
-e290384790.979001
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/SDLMain.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@68"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m290384790#290384790#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m4300885448#1418"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/SDLMain.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal i386 c com.apple.compilers.gcc.4_0
-s290384790.927361
-e290384791.022035
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/atlantis.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-lSLF07#2@78"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384790#290384791#0(732"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#104#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#261#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#418#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#575#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c4300885448#1419"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/atlantis.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal i386 c com.apple.compilers.gcc.4_0
-s290384790.979102
-e290384791.196115
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/dolphin.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@77"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c290384790#290384791#0(0"0(0#0#69"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c4300885448#1417"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/dolphin.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c normal i386 c com.apple.compilers.gcc.4_0
-s290384753.754570
-e290384753.858840
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c290384753#290384753#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c4300885448#1402"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s290384790.878892
-e290384790.927262
-r0
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_0
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'
-lSLF07#2@67"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384790#290384790#0(360"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'2(4@45"Invalid conversion from 'int' to 'SDL_GLattr'290384790#99#117#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#34"invalid conversion from '*' to '*'0(4@70"Initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'290384790#216#144#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#0"0(0#0#59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp4300885448#1434"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/main.o1#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal i386 c com.apple.compilers.gcc.4_0
-s290384791.022141
-e290384791.194000
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/shark.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c290384791#290384791#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c4300885448#1413"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/shark.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal i386 c com.apple.compilers.gcc.4_0
-s290384791.194108
-e290384791.275437
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/swim.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c290384791#290384791#0(0"0(0#0#66"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c4300885448#1411"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/swim.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal i386 c com.apple.compilers.gcc.4_0
-s290384791.196347
-e290384791.383668
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/whale.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c290384791#290384791#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c4300885448#1413"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/whale.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s290384791.275547
-e290384791.500123
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/SDLMain.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@68"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m290384791#290384791#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m4300885448#1412"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/SDLMain.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal ppc c com.apple.compilers.gcc.4_0
-s290384791.426241
-e290384791.535551
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/atlantis.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-lSLF07#2@78"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384791#290384791#0(732"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#104#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#261#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#418#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384791#575#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c4300885448#1413"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/atlantis.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal ppc c com.apple.compilers.gcc.4_0
-s290384791.500410
-e290384791.728144
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/dolphin.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@77"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c290384791#290384791#0(0"0(0#0#69"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c4300885448#1411"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/dolphin.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c normal ppc c com.apple.compilers.gcc.4_0
-s290384754.386072
-e290384754.431476
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c290384754#290384754#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c4300885448#1396"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s290384791.383784
-e290384791.426132
-r0
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp
-xnormal
-xppc
-xc++
-xcom.apple.compilers.gcc.4_0
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'
-lSLF07#2@67"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384791#290384791#0(360"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'2(4@45"Invalid conversion from 'int' to 'SDL_GLattr'290384791#99#117#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#34"invalid conversion from '*' to '*'0(4@70"Initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'290384791#216#144#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#0"0(0#0#59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp4300885448#1428"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/main.o1#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal ppc c com.apple.compilers.gcc.4_0
-s290384791.535655
-e290384791.673202
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/shark.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c290384791#290384791#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c4300885448#1407"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/shark.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal ppc c com.apple.compilers.gcc.4_0
-s290384791.673304
-e290384791.764260
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/swim.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c290384791#290384791#0(0"0(0#0#66"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c4300885448#1405"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/swim.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal ppc c com.apple.compilers.gcc.4_0
-s290384791.728252
-e290384791.886875
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/whale.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c290384791#290384791#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c4300885448#1407"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/whale.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290384790.290714
-e290384790.575683
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/SDLMain.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m290384790#290384790#0(0"0(0#0#60"/Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m4300885448#1424"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/SDLMain.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/atlantis.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384790.337818
-e290384790.455122
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/atlantis.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness
-lSLF07#2@78"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384790#290384790#0(732"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c: In function 'Atlantis_Display':/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:330: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:335: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:340: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c:345: warning: pointer targets in passing argument 1 of 'DrawStr' differ in signedness4(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384790#104#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#330#0#330#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384790#261#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#335#0#335#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384790#418#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#340#0#340#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@71"Pointer targets in passing argument 1 of 'DrawStr' differ in signedness290384790#575#157#0(6@70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c290384737#345#0#345#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c4300885448#1425"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/atlantis.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/atlantis.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/dolphin.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384790.455236
-e290384790.644196
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/dolphin.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c290384790#290384790#0(0"0(0#0#69"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c4300885448#1423"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/dolphin.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/dolphin.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384753.058195
-e290384753.151762
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c290384753#290384753#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c4300885448#1408"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s290384790.291741
-e290384790.337713
-r0
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'
-o/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'
-lSLF07#2@67"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384790#290384790#0(1122"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp: In function 'void printAttributes()':/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:55: warning: deprecated conversion from string constant to 'char*'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error: invalid conversion from 'int' to 'SDL_GLattr'/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp:62: error:   initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'8(22@53"Deprecated conversion from string constant to 'char*'290384790#99#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'290384790#226#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'290384790#353#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'290384790#480#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'290384790#607#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'290384790#734#127#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#55#0#55#0#49"deprecated conversion from string constant to '*'0(4@45"Invalid conversion from 'int' to 'SDL_GLattr'290384790#861#117#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#34"invalid conversion from '*' to '*'0(4@70"Initializing argument 1 of 'int SDL_GL_GetAttribute(SDL_GLattr, int*)'290384790#978#144#0(6@59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp290384738#62#0#62#0#0"0(0#0#59"/Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp4300885448#1440"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/main.o1#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/shark.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384790.575783
-e290384790.707114
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/shark.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c290384790#290384790#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c4300885448#1419"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/shark.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/shark.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/swim.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384790.644301
-e290384790.757040
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/swim.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c290384790#290384790#0(0"0(0#0#66"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c4300885448#1417"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/swim.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/swim.o0#
-
-CCompileC build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/whale.o /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c normal x86_64 c com.apple.compilers.gcc.4_2
-s290384790.707222
-e290384790.878784
-r1
-xCompileC
-xbuild/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/whale.o
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c290384790#290384790#0(0"0(0#0#67"/Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c4300885448#1419"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/atlantis/whale.c -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/whale.o0#
-
-CCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s290384783.903959
-e290384783.932059
-r1
-xCopyStringsFile
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings290384783#290384783#0(0"0(0#0#82"/Users/halogenandtoast/Desktop/server/osx/sdl_game/English.lproj/InfoPlist.strings4300885448#391"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Resources/English.lproj0#
-
-CCreateUniversalBinary /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/MacOS/sdl_game normal "x86_64 i386 ppc"
-s290384754.915592
-e290384754.926141
-r1
-xCreateUniversalBinary
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/MacOS/sdl_game
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@95"CreateUniversalBinary build/Debug/sdl_game.app/Contents/MacOS/sdl_game normal "x86_64 i386 ppc"290384754#290384754#0(0"0(0#0#66"/Users/halogenandtoast/Desktop/server/osx/sdl_game/x86_64 i386 ppc4300885448#559"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    /usr/bin/lipo -create /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game -output /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/MacOS/sdl_game0#
-
-CLd /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game normal i386
-s290384754.342091
-e290384754.433495
-r1
-xLd
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game
-xnormal
-xi386
-lSLF07#2@126"Link /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game290384754#290384754#0(0"0(0#0#0"4300885448#770"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/i386/sdl_game0#
-
-CLd /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game normal ppc
-s290384754.860230
-e290384754.915484
-r1
-xLd
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game
-xnormal
-xppc
-lSLF07#2@125"Link /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game290384754#290384754#0(0"0(0#0#0"4300885448#767"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/ppc/sdl_game0#
-
-CLd /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game normal x86_64
-s290384753.660686
-e290384753.903443
-r1
-xLd
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game
-xnormal
-xx86_64
-lSLF07#2@128"Link /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game290384753#290384753#0(0"0(0#0#0"4300885448#776"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework GLUT -framework Cocoa -framework OpenGL -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/Objects-normal/x86_64/sdl_game0#
-
-CPBXCp build/Debug/sdl_game.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
-s290384791.887077
-e290384791.906991
-r1
-xPBXCp
-xbuild/Debug/sdl_game.app/Contents/Frameworks/SDL.framework
-x/Library/Frameworks/SDL.framework
-lSLF07#2@38"Copy /Library/Frameworks/SDL.framework290384791#290384791#0(0"0(0#0#33"/Library/Frameworks/SDL.framework4300885448#336"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/SDL.framework /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Frameworks0#
-
-CProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Info.plist Info.plist
-s290384783.894413
-e290384783.903868
-r1
-xProcessInfoPlistFile
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist290384783#290384783#0(0"0(0#0#61"/Users/halogenandtoast/Desktop/server/osx/sdl_game/Info.plist4300885448#340"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    builtin-infoPlistUtility Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 c com.apple.compilers.gcc.4_0
-s290384787.672654
-e290384787.852509
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384787#290384787#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1297"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bkedqlhzyzqfilfcylzogdmqsvgv/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
-s290384784.168054
-e290384784.375094
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384784#290384784#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1301"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-bsdtdfoqrcgxhhftfztyubbnobml/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
-s290384784.375217
-e290384787.672541
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384784#290384787#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1307"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-dgklnpuzlxsiurdhrcojctincvzg/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
-s290384787.775940
-e290384790.290569
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384787#290384790#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1302"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-eiycebbwnoqcfdbisyfunwealdva/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc c com.apple.compilers.gcc.4_0
-s290384788.000038
-e290384788.135132
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384788#290384788#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1292"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ezcgjxuummwnbxawnyzsdfjmjcqs/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290384783.932186
-e290384787.617624
-r1
-xProcessPCH
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384783#290384787#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1311"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-hbidjldonubokccehxtyiiisehmr/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
-s290384787.617799
-e290384787.775817
-r1
-xProcessPCH++
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384787#290384787#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1327"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-ccbusokghauxewezikcyyjmfokji/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
-s290384783.933020
-e290384784.167941
-r1
-xProcessPCH++
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384783#290384784#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1331"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-cvgryazcloclzthksiydkbhbgszr/sdl_game_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch.gch sdl_game_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_0
-s290384787.852630
-e290384787.999919
-r1
-xProcessPCH++
-x/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch.gch
-xsdl_game_Prefix.pch
-xnormal
-xppc
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@30"Precompile sdl_game_Prefix.pch290384787#290384787#0(0"0(0#0#70"/Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch4300885448#1322"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/sdl_game.hmap -F/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/sdl_game.build/Debug/sdl_game.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/sdl_game_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdl_game_Prefix-gyjppnhzyhltloatiptkwxifpilr/sdl_game_Prefix.pch.gch0#
-
-CTouch /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app
-s290384754.975562
-e290384754.978319
-r1
-xTouch
-x/Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app
-lSLF07#2@81"Touch /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app290384754#290384754#0(0"0(0#0#0"4300885448#156"    cd /Users/halogenandtoast/Desktop/server/osx/sdl_game    /usr/bin/touch -c /Users/halogenandtoast/Desktop/server/osx/sdl_game/build/Debug/sdl_game.app0#
-
