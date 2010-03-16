@@ -5,6 +5,12 @@
 #include "model.h"
 #include "glsl.h"
 
+#ifdef __APPLE__
+#include "CoreFoundation/CoreFoundation.h"
+#endif
+
+
+char *pname;
 float angle = 0.0f;
 float ypos = 0.0f;
 float ydir = 0.05f;
@@ -90,6 +96,18 @@ static void createSurface (int fullscreen)
 
 static void initGL ()
 {
+	#ifdef __APPLE__    
+		CFBundleRef mainBundle = CFBundleGetMainBundle();
+		CFURLRef resourcesURL = CFBundleCopyResourcesDirectoryURL(mainBundle);
+		char path[PATH_MAX];
+		if (!CFURLGetFileSystemRepresentation(resourcesURL, TRUE, (UInt8 *)path, PATH_MAX))
+		{
+		}
+		CFRelease(resourcesURL);
+		chdir(path);
+		std::cout << "Current Path: " << path << std::endl;
+	#endif
+	
 	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
 	GLuint prog_id = createGLSLProgram("simple.vert", "simple.frag");
 	glUseProgram(prog_id);
@@ -145,7 +163,7 @@ static void mainLoop ()
 {
     SDL_Event event;
     int done = 0;
-    int fps = 24;
+    int fps = 60;
 	int delay = 1000/fps;
     int thenTicks = -1;
     int nowTicks;
@@ -201,6 +219,7 @@ static void mainLoop ()
 
 int main(int argc, char *argv[])
 {
+	pname = argv[0];
 	// Init SDL video subsystem
 	if ( SDL_Init (SDL_INIT_VIDEO) < 0 ) {
 		

@@ -20,6 +20,8 @@
 		C18098A7114F1E2300208269 /* glsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18098A6114F1E2300208269 /* glsl.cpp */; };
 		C18098AC114F1E4500208269 /* simple.vert in Sources */ = {isa = PBXBuildFile; fileRef = C18098AB114F1E4500208269 /* simple.vert */; };
 		C18098D1114F1E5400208269 /* simple.frag in Sources */ = {isa = PBXBuildFile; fileRef = C18098D0114F1E5400208269 /* simple.frag */; };
+		FB28BEC9114FE06A00651DD8 /* simple.vert in Resources */ = {isa = PBXBuildFile; fileRef = C18098AB114F1E4500208269 /* simple.vert */; };
+		FB28BECA114FE06A00651DD8 /* simple.frag in Resources */ = {isa = PBXBuildFile; fileRef = C18098D0114F1E5400208269 /* simple.frag */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB28BEC9114FE06A00651DD8 /* simple.vert in Resources */,
+				FB28BECA114FE06A00651DD8 /* simple.frag in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				C1809828114F1AD700208269 /* teapotn.txt in Resources */,
 			);
