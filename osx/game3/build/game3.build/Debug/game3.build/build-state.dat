@@ -1,33 +1,33 @@
 Tgame3
 v7
 r0
-t290384564.955015
+t290443990.004516
 cCheck dependencies
-cProcessInfoPlistFile /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessInfoPlistFile /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 cCpResource build/Debug/game3.app/Contents/Resources/teapotn.txt teapotn.txt
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ayofinupuzfmdphdhrstceanghxd/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-adjddtkiqpttdgdhugygcbogbpbj/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-gbinzbsyvbciugdalizrzmrorsfm/game3_Prefix.pch.gch game3_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ezredavqzhngfcbdzotxrouxtjgt/game3_Prefix.pch.gch game3_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-dqccaajvfllgfxhkouajcxwqwgpo/game3_Prefix.pch.gch game3_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
-cProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ggrkxigxlhterabtmsufbbasckxs/game3_Prefix.pch.gch game3_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_0
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cLd /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3 normal x86_64
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/main.o /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-cLd /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 normal i386
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-cLd /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3 normal ppc
-cCreateUniversalBinary /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/MacOS/game3 normal "x86_64 i386 ppc"
+cProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch.gch game3_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch.gch game3_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch.gch game3_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+cProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch.gch game3_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_0
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3 normal x86_64
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 normal i386
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
+cLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3 normal ppc
+cCreateUniversalBinary /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/MacOS/game3 normal "x86_64 i386 ppc"
 cPBXCp build/Debug/game3.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
-cTouch /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app
+cTouch /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
-c000000004A769DAB00000000000000EE
-t1249287595
+c000000004B50402C00000000000000EE
+t1263550508
 s238
 
 N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
@@ -263,6 +263,162 @@ c000000004B9EB3330000000000008030
 t1268691763
 s32816
 
+N/Users/mmongeau/Desktop/game/osx/game3/English.lproj/InfoPlist.strings
+c000000004B9F8D8800000000000001D8
+t1268747656
+s472
+
+N/Users/mmongeau/Desktop/game/osx/game3/SDLMain.h
+c000000004B9F8D880000000000000176
+t1268747656
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m
+c000000004B9F8D880000000000002C00
+t1268747656
+s11264
+i"SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app
+t1268751165
+s102
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Frameworks/SDL.framework
+t1268747656
+s204
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Info.plist
+t1268747656
+s961
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/MacOS/game3
+t1268751165
+s82100
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/PkgInfo
+t1268747656
+s8
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1268747656
+s472
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Resources/teapotn.txt
+t1268747656
+s32816
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o
+t1268751164
+s40488
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3
+t1268751165
+s25736
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3.LinkFileList
+c000000004B9F9B3500000000000000CF
+t1268751157
+s207
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/main.o
+t1268751165
+s25068
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o
+t1268751165
+s45120
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3
+t1268751165
+s24756
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3.LinkFileList
+c000000004B9F9B3500000000000000CD
+t1268751157
+s205
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o
+t1268751165
+s26712
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o
+t1268751164
+s42388
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3
+t1268751164
+s23720
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3.LinkFileList
+c000000004B9F9B3500000000000000D3
+t1268751157
+s211
+
+N/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o
+t1268751164
+s55512
+
+N/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch
+c000000004B9F8D8800000000000000AF
+t1268747656
+s175
+i"SDL.h"
+i<Cocoa/Cocoa.h>
+
+N/Users/mmongeau/Desktop/game/osx/game3/main.cpp
+c000000004B9F8D880000000000000575
+t1268747656
+s1397
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i"SDL.h"
+i"SDL_opengl.h"
+i"model.h"
+
+N/Users/mmongeau/Desktop/game/osx/game3/model.h
+c000000004B9F8D88000000000000019C
+t1268747656
+s412
+i<cstdio>
+i<cstdlib>
+i<iostream>
+i<GLUT/glut.h>
+
+N/Users/mmongeau/Desktop/game/osx/game3/teapotn.txt
+c000000004B9F8D880000000000008030
+t1268747656
+s32816
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch.gch
+t1268751162
+s2547672
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch.gch
+t1268751161
+s36959044
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch.gch
+t1268751164
+s35312256
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch.gch
+t1268751161
+s54958704
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch.gch
+t1268751161
+s2773008
+
+N/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch.gch
+t1268751157
+s4729168
+
 N/var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-adjddtkiqpttdgdhugygcbogbpbj/game3_Prefix.pch.gch
 t1268691350
 s4733264
@@ -300,13 +456,13 @@ t1268691354
 s2547672
 
 NInfo.plist
-c000000004B9EAF850000000000000408
-t1268690821
+c000000004B9F8D880000000000000408
+t1268747656
 s1032
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies290384564#290384564#0(686"[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture ppc[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture ppc6(22@109"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture x86_64290384564#18446744073709551615#0#0(1@0"0(22@109"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture x86_64290384564#18446744073709551615#0#0(1@0"0(22@107"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture i386290384564#18446744073709551615#0#0(1@0"0(22@107"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture i386290384564#18446744073709551615#0#0(1@0"0(22@106"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture ppc290384564#18446744073709551615#0#0(1@0"0(22@106"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture ppc290384564#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies290443989#290443990#0(686"[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture ppc[WARN]warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture ppc6(22@109"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture x86_64290443989#18446744073709551615#0#0(1@0"0(22@109"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture x86_64290443989#18446744073709551615#0#0(1@0"0(22@107"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture i386290443989#18446744073709551615#0#0(1@0"0(22@107"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture i386290443989#18446744073709551615#0#0(1@0"0(22@106"warning: no rule to process file '$(PROJECT_DIR)/simple.frag' of type sourcecode.glsl for architecture ppc290443989#18446744073709551615#0#0(1@0"0(22@106"warning: no rule to process file '$(PROJECT_DIR)/simple.vert' of type sourcecode.glsl for architecture ppc290443989#18446744073709551615#0#0(1@0"0(0#1#0"4300903632#0"0#
 
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s290384156.722252
@@ -320,6 +476,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m290384156#290384156#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m4300885448#1361"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-gbinzbsyvbciugdalizrzmrorsfm/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o0#
+
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s290443964.654390
+e290443964.806887
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o
+x/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@56"Compile /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m290443964#290443964#0(0"0(0#0#48"/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m4300903632#1275"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/SDLMain.o0#
 
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/glsl.o /Users/halogenandtoast/Desktop/server/osx/game3/glsl.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 s290384157.076082
@@ -360,6 +529,19 @@ xc++
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@64"Compile /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp290384156#290384157#0(0"0(0#0#56"/Users/halogenandtoast/Desktop/server/osx/game3/main.cpp4300885448#1377"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ezredavqzhngfcbdzotxrouxtjgt/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/main.o0#
 
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/i386/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s290443964.806985
+e290443965.162013
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/i386/main.o
+x/Users/mmongeau/Desktop/game/osx/game3/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@55"Compile /Users/mmongeau/Desktop/game/osx/game3/main.cpp290443964#290443965#0(0"0(0#0#47"/Users/mmongeau/Desktop/game/osx/game3/main.cpp4300903632#1291"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/main.cpp -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/main.o0#
+
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s290384157.240354
 e290384157.442547
@@ -372,6 +554,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m290384157#290384157#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m4300885448#1355"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-dqccaajvfllgfxhkouajcxwqwgpo/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o0#
+
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s290443964.992910
+e290443965.154013
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o
+x/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@56"Compile /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m290443964#290443965#0(0"0(0#0#48"/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m4300903632#1282"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/SDLMain.o0#
 
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/glsl.o /Users/halogenandtoast/Desktop/server/osx/game3/glsl.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 s290384157.504806
@@ -412,6 +607,19 @@ xc++
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@64"Compile /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp290384157#290384157#0(0"0(0#0#56"/Users/halogenandtoast/Desktop/server/osx/game3/main.cpp4300885448#1371"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ggrkxigxlhterabtmsufbbasckxs/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o0#
 
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
+s290443965.154110
+e290443965.457216
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/ppc/main.o
+x/Users/mmongeau/Desktop/game/osx/game3/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@55"Compile /Users/mmongeau/Desktop/game/osx/game3/main.cpp290443965#290443965#0(0"0(0#0#47"/Users/mmongeau/Desktop/game/osx/game3/main.cpp4300903632#1298"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/main.cpp -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/main.o0#
+
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s290384156.224516
 e290384156.524650
@@ -424,6 +632,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m290384156#290384156#0(0"0(0#0#57"/Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m4300885448#1367"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-ayofinupuzfmdphdhrstceanghxd/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/SDLMain.m -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290443964.444788
+e290443964.654282
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o
+x/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m290443964#290443964#0(0"0(0#0#48"/Users/mmongeau/Desktop/game/osx/game3/SDLMain.m4300903632#1281"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/SDLMain.m -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/SDLMain.o0#
 
 CCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/glsl.o /Users/halogenandtoast/Desktop/server/osx/game3/glsl.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s290384156.524749
@@ -464,6 +685,19 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@64"Compile /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp290384156#290384156#0(0"0(0#0#56"/Users/halogenandtoast/Desktop/server/osx/game3/main.cpp4300885448#1383"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-adjddtkiqpttdgdhugygcbogbpbj/game3_Prefix.pch -c /Users/halogenandtoast/Desktop/server/osx/game3/main.cpp -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o0#
 
+CCompileC build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o /Users/mmongeau/Desktop/game/osx/game3/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s290443964.446577
+e290443964.950218
+r1
+xCompileC
+xbuild/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o
+x/Users/mmongeau/Desktop/game/osx/game3/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/mmongeau/Desktop/game/osx/game3/main.cpp290443964#290443964#0(0"0(0#0#47"/Users/mmongeau/Desktop/game/osx/game3/main.cpp4300903632#1297"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -include /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch -c /Users/mmongeau/Desktop/game/osx/game3/main.cpp -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/main.o0#
+
 CCopyStringsFile /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s290384149.803473
 e290384149.860944
@@ -472,6 +706,9 @@ xCopyStringsFile
 x/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings290384149#290384149#0(0"0(0#0#79"/Users/halogenandtoast/Desktop/server/osx/game3/English.lproj/InfoPlist.strings4300885448#382"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
 
 CCpResource build/Debug/game3.app/Contents/Resources/teapotn.txt teapotn.txt
 s290384564.932776
@@ -491,6 +728,16 @@ x/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/
 xnormal
 xx86_64 i386 ppc
 lSLF07#2@89"CreateUniversalBinary build/Debug/game3.app/Contents/MacOS/game3 normal "x86_64 i386 ppc"290384223#290384223#0(0"0(0#0#63"/Users/halogenandtoast/Desktop/server/osx/game3/x86_64 i386 ppc4300885448#511"    cd /Users/halogenandtoast/Desktop/server/osx/game3    /usr/bin/lipo -create /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3 /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3 -output /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/MacOS/game30#
+
+CCreateUniversalBinary /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/MacOS/game3 normal "x86_64 i386 ppc"
+s290443965.487525
+e290443965.490473
+r1
+xCreateUniversalBinary
+x/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/MacOS/game3
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@89"CreateUniversalBinary build/Debug/game3.app/Contents/MacOS/game3 normal "x86_64 i386 ppc"290443965#290443965#0(0"0(0#0#54"/Users/mmongeau/Desktop/game/osx/game3/x86_64 i386 ppc4300903632#466"    cd /Users/mmongeau/Desktop/game/osx/game3    /usr/bin/lipo -create /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3 /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3 -output /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/MacOS/game30#
 
 CLd /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 normal i386
 s290384223.637701
@@ -522,6 +769,39 @@ xnormal
 xx86_64
 lSLF07#2@116"Link /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3290384223#290384223#0(0"0(0#0#0"4300885448#709"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -o /Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game30#
 
+CLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3 normal i386
+s290443965.162109
+e290443965.204335
+r1
+xLd
+x/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3
+xnormal
+xi386
+old: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found
+lSLF07#2@105"Link /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3290443965#290443965#0(83"ld: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found1(22@69"Directory '/Users/mmongeau/Library/Frameworks' following -F not found290443965#0#83#0(6@0"290443965#0#0#0#0#0"0(0#0#0"4300903632#651"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game3.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/i386/game30#
+
+CLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3 normal ppc
+s290443965.457306
+e290443965.487417
+r1
+xLd
+x/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3
+xnormal
+xppc
+old: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found
+lSLF07#2@104"Link /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3290443965#290443965#0(83"ld: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found1(22@69"Directory '/Users/mmongeau/Library/Frameworks' following -F not found290443965#0#83#0(6@0"290443965#0#0#0#0#0"0(0#0#0"4300903632#648"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game3.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/ppc/game30#
+
+CLd /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3 normal x86_64
+s290443964.950298
+e290443964.992810
+r1
+xLd
+x/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3
+xnormal
+xx86_64
+old: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found
+lSLF07#2@107"Link /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3290443964#290443964#0(83"ld: warning: directory '/Users/mmongeau/Library/Frameworks' following -F not found1(22@69"Directory '/Users/mmongeau/Library/Frameworks' following -F not found290443964#0#83#0(6@0"290443964#0#0#0#0#0"0(0#0#0"4300903632#657"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game3.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -o /Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/Objects-normal/x86_64/game30#
+
 CPBXCp build/Debug/game3.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
 s290384157.859273
 e290384157.901646
@@ -539,6 +819,48 @@ xProcessInfoPlistFile
 x/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Info.plist
 xInfo.plist
 lSLF07#2@18"Process Info.plist290384149#290384149#0(0"0(0#0#58"/Users/halogenandtoast/Desktop/server/osx/game3/Info.plist4300885448#325"    cd /Users/halogenandtoast/Desktop/server/osx/game3    builtin-infoPlistUtility Info.plist -genpkginfo /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app/Contents/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch.gch game3_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s290443957.863896
+e290443961.719374
+r1
+xProcessPCH
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@27"Precompile game3_Prefix.pch290443957#290443961#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1179"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-bxcoaxbozxadxsbppplpuydtxupf/game3_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch.gch game3_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s290443961.919784
+e290443964.444310
+r1
+xProcessPCH
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@27"Precompile game3_Prefix.pch290443961#290443964#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1187"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-dqsdgceqlvudxpacoufoytezlkwd/game3_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290443957.549657
+e290443962.034576
+r1
+xProcessPCH
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile game3_Prefix.pch290443957#290443962#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1183"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-ecnwisktjriyzbawvzarjhnakpwz/game3_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-allmyanhshzaucddhxzwdvejktgy/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
 s290383635.740935
@@ -618,6 +940,45 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@27"Precompile game3_Prefix.pch290384150#290384153#0(0"0(0#0#64"/Users/halogenandtoast/Desktop/server/osx/game3/game3_Prefix.pch4300885448#1256"    cd /Users/halogenandtoast/Desktop/server/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug -F/Users/halogenandtoast/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/include -I/Users/halogenandtoast/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/halogenandtoast/Desktop/server/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/halogenandtoast/Desktop/server/osx/game3/game3_Prefix.pch -o /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-gbinzbsyvbciugdalizrzmrorsfm/game3_Prefix.pch.gch0#
 
+CProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch.gch game3_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_0
+s290443962.034716
+e290443962.222918
+r1
+xProcessPCH++
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@27"Precompile game3_Prefix.pch290443962#290443962#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1207"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/ppc -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-aawvukrltiyldggenxrkksodsglw/game3_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch.gch game3_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s290443961.719586
+e290443961.919618
+r1
+xProcessPCH++
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@27"Precompile game3_Prefix.pch290443961#290443961#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1199"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/i386 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-eyillxibtsiqahgkykofstjyqiub/game3_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s290443957.550741
+e290443957.863776
+r1
+xProcessPCH++
+x/var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch.gch
+xgame3_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile game3_Prefix.pch290443957#290443957#0(0"0(0#0#55"/Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch4300903632#1203"    cd /Users/mmongeau/Desktop/game/osx/game3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/game3.hmap -F/Users/mmongeau/Desktop/game/osx/game3/build/Debug -F/Users/mmongeau/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/mmongeau/Desktop/game/osx/game3/build/Debug/include -I/Users/mmongeau/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources/x86_64 -I/Users/mmongeau/Desktop/game/osx/game3/build/game3.build/Debug/game3.build/DerivedSources -c /Users/mmongeau/Desktop/game/osx/game3/game3_Prefix.pch -o /var/folders/Au/Au24-aAVHTWil49Ds1mppE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/game3_Prefix-hhhncgmqzvafeifyeewgijkenebh/game3_Prefix.pch.gch0#
+
 CProcessPCH++ /var/folders/qc/qcTa4CVqFl47c4NKujXwXU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/game3_Prefix-adjddtkiqpttdgdhugygcbogbpbj/game3_Prefix.pch.gch game3_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
 s290384149.861912
 e290384150.107773
@@ -664,4 +1025,12 @@ r1
 xTouch
 x/Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app
 lSLF07#2@75"Touch /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app290384564#290384564#0(0"0(0#0#0"4300885448#147"    cd /Users/halogenandtoast/Desktop/server/osx/game3    /usr/bin/touch -c /Users/halogenandtoast/Desktop/server/osx/game3/build/Debug/game3.app0#
+
+CTouch /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app
+s290443965.490599
+e290443965.492795
+r1
+xTouch
+x/Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app
+lSLF07#2@66"Touch /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app290443965#290443965#0(0"0(0#0#0"4300903632#129"    cd /Users/mmongeau/Desktop/game/osx/game3    /usr/bin/touch -c /Users/mmongeau/Desktop/game/osx/game3/build/Debug/game3.app0#
 

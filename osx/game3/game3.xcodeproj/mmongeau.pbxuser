@@ -1,0 +1,117 @@
+// !$*UTF8*$!
+{
+	002F3A3E09D088BA00EBEB88 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {537, 832}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{456, 532}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FB53E3E5114FD2A10046CF31 /* game3 */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D1107260486CEB800E47090 /* game3 */;
+		codeSenseManager = FB53E3FD114FD2BE0046CF31 /* Code sense */;
+		executables = (
+			FB53E3E5114FD2A10046CF31 /* game3 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 290443937;
+			PBXWorkspaceStateSaveDate = 290443937;
+		};
+		perUserProjectItems = {
+			FB53E400114FD2E80046CF31 /* PBXBookmark */ = FB53E400114FD2E80046CF31 /* PBXBookmark */;
+			FB53E401114FD2E80046CF31 /* PBXTextBookmark */ = FB53E401114FD2E80046CF31 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FB53E3FC114FD2BE0046CF31 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* game3 */ = {
+		activeExec = 0;
+		executables = (
+			FB53E3E5114FD2A10046CF31 /* game3 */,
+		);
+	};
+	FB53E3E5114FD2A10046CF31 /* game3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = game3;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FB53E3FC114FD2BE0046CF31 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FB53E3FD114FD2BE0046CF31 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FB53E400114FD2E80046CF31 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
+	};
+	FB53E401114FD2E80046CF31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 456;
+	};
+}
