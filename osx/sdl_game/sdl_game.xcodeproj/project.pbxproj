@@ -15,6 +15,12 @@
 		002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C6009D0951E00EBEB88 /* GLUT.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C106179511504202007110D5 /* intro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C106179411504202007110D5 /* intro.cpp */; };
+		C1218913115075AD0009561B /* height_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1218912115075AD0009561B /* height_map.cpp */; };
+		C121894711508CC90009561B /* SDL_image.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C121894611508CC90009561B /* SDL_image.framework */; };
+		C121895F11508D120009561B /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C121894611508CC90009561B /* SDL_image.framework */; };
+		C12189841150908A0009561B /* hm.png in Resources */ = {isa = PBXBuildFile; fileRef = C12189831150908A0009561B /* hm.png */; };
+		C12189FB11509E6F0009561B /* hm.gif in Resources */ = {isa = PBXBuildFile; fileRef = C12189FA11509E6F0009561B /* hm.gif */; };
 		C1809814114F1A2B00208269 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1809813114F1A2B00208269 /* model.cpp */; };
 		C1809828114F1AD700208269 /* teapotn.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1809827114F1AD700208269 /* teapotn.txt */; };
 		C18098A7114F1E2300208269 /* glsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18098A6114F1E2300208269 /* glsl.cpp */; };
@@ -31,6 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C121894711508CC90009561B /* SDL_image.framework in Copy Frameworks into .app bundle */,
 				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
 			);
 			name = "Copy Frameworks into .app bundle";
@@ -52,6 +59,13 @@
 		32CA4F630368D1EE00C91783 /* sdl_game_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdl_game_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* sdl_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdl_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C106179411504202007110D5 /* intro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = intro.cpp; sourceTree = "<group>"; };
+		C10617961150420A007110D5 /* intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intro.h; sourceTree = "<group>"; };
+		C1218912115075AD0009561B /* height_map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = height_map.cpp; sourceTree = "<group>"; };
+		C1218914115075B40009561B /* height_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = height_map.h; sourceTree = "<group>"; };
+		C121894611508CC90009561B /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
+		C12189831150908A0009561B /* hm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hm.png; sourceTree = "<group>"; };
+		C12189FA11509E6F0009561B /* hm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hm.gif; sourceTree = "<group>"; };
 		C1809813114F1A2B00208269 /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
 		C1809815114F1A3200208269 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		C1809827114F1AD700208269 /* teapotn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teapotn.txt; sourceTree = "<group>"; };
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C121895F11508D120009561B /* SDL_image.framework in Frameworks */,
 				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
 				002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
@@ -88,6 +103,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C121894611508CC90009561B /* SDL_image.framework */,
 				002F39F909D0881F00EBEB88 /* SDL.framework */,
 				002F3C6009D0951E00EBEB88 /* GLUT.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
@@ -116,8 +132,10 @@
 		29B97314FDCFA39411CA2CEA /* sdl_game */ = {
 			isa = PBXGroup;
 			children = (
+				C1061787115041AE007110D5 /* Controllers */,
+				C1061786115041A8007110D5 /* Views */,
+				C1061784115041A2007110D5 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -125,22 +143,11 @@
 			name = sdl_game;
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32CA4F630368D1EE00C91783 /* sdl_game_Prefix.pch */,
-				002F3A3E09D088BA00EBEB88 /* main.cpp */,
-				C1809813114F1A2B00208269 /* model.cpp */,
-				C1809815114F1A3200208269 /* model.h */,
-				C18098A6114F1E2300208269 /* glsl.cpp */,
-				C18098A8114F1E3300208269 /* glsl.h */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C12189FA11509E6F0009561B /* hm.gif */,
+				C12189831150908A0009561B /* hm.png */,
 				C1809827114F1AD700208269 /* teapotn.txt */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -157,6 +164,37 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1061784115041A2007110D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1809813114F1A2B00208269 /* model.cpp */,
+				C1809815114F1A3200208269 /* model.h */,
+				C1218912115075AD0009561B /* height_map.cpp */,
+				C1218914115075B40009561B /* height_map.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C1061786115041A8007110D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C106179411504202007110D5 /* intro.cpp */,
+				C10617961150420A007110D5 /* intro.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C1061787115041AE007110D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* sdl_game_Prefix.pch */,
+				002F3A3E09D088BA00EBEB88 /* main.cpp */,
+				C18098A6114F1E2300208269 /* glsl.cpp */,
+				C18098A8114F1E3300208269 /* glsl.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +245,8 @@
 				FB28BECA114FE06A00651DD8 /* simple.frag in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				C1809828114F1AD700208269 /* teapotn.txt in Resources */,
+				C12189841150908A0009561B /* hm.png in Resources */,
+				C12189FB11509E6F0009561B /* hm.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +263,8 @@
 				C18098A7114F1E2300208269 /* glsl.cpp in Sources */,
 				C18098AC114F1E4500208269 /* simple.vert in Sources */,
 				C18098D1114F1E5400208269 /* simple.frag in Sources */,
+				C106179511504202007110D5 /* intro.cpp in Sources */,
+				C1218913115075AD0009561B /* height_map.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +331,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_image.framework/Headers,
 					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
 					/Library/Frameworks/SDL.framework/Headers,
 					"$(HEADER_SEARCH_PATHS)",

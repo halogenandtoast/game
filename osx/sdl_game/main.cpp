@@ -2,8 +2,10 @@
 #include "SDL_opengl.h"
 
 #include <sys/time.h>
+#include <string>
 #include "model.h"
 #include "glsl.h"
+#include "height_map.h"
 
 #ifdef __APPLE__
 #include "CoreFoundation/CoreFoundation.h"
@@ -21,7 +23,7 @@ GLenum StrMode = GL_VENDOR;
 int gheight, gwidth;
 
 Model myModel1;
-
+HeightMap hm;
 static SDL_Surface *gScreen;
 
 static double mtime(void)
@@ -108,10 +110,12 @@ static void initGL ()
 		chdir(path);
 	#endif
 	
+	hm.load((char *) "hm.gif");
+	
 	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
-	GLuint prog_id = createGLSLProgram("simple.vert", "simple.frag");
+	GLuint prog_id = createGLSLProgram((char *) "simple.vert", (char *) "simple.frag");
 	glUseProgram(prog_id);
-	if(!myModel1.loadModel("teapotn.txt")) {
+	if(!myModel1.loadModel((char *) "teapotn.txt")) {
 		std::cout << "Could not load model file" << std::endl;
 		return;
 	}
@@ -131,11 +135,10 @@ static void drawGL ()
 	glLoadIdentity();
 	
 	glPushMatrix();
-
 	glTranslatef(0.0, 0.0f, -10.0f);
 	glRotatef(180.0f, 0.0f, 1.0f, 0.0f);
 	glRotatef(angle, 0.0f, 1.0f, 0.0f);
-	
+	//hm.render();
 	myModel1.render();
 	glPopMatrix();
 	
