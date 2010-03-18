@@ -21,6 +21,8 @@
 		C121895F11508D120009561B /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C121894611508CC90009561B /* SDL_image.framework */; };
 		C12189841150908A0009561B /* hm.png in Resources */ = {isa = PBXBuildFile; fileRef = C12189831150908A0009561B /* hm.png */; };
 		C12189FB11509E6F0009561B /* hm.gif in Resources */ = {isa = PBXBuildFile; fileRef = C12189FA11509E6F0009561B /* hm.gif */; };
+		C17E4C061151960700FE6AE9 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17E4C051151960700FE6AE9 /* vec3.cpp */; };
+		C17E4C0B1152570E00FE6AE9 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17E4C0A1152570E00FE6AE9 /* camera.cpp */; };
 		C1809814114F1A2B00208269 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1809813114F1A2B00208269 /* model.cpp */; };
 		C1809828114F1AD700208269 /* teapotn.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1809827114F1AD700208269 /* teapotn.txt */; };
 		C18098A7114F1E2300208269 /* glsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18098A6114F1E2300208269 /* glsl.cpp */; };
@@ -66,6 +68,10 @@
 		C121894611508CC90009561B /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
 		C12189831150908A0009561B /* hm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hm.png; sourceTree = "<group>"; };
 		C12189FA11509E6F0009561B /* hm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hm.gif; sourceTree = "<group>"; };
+		C17E4C04115195FB00FE6AE9 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		C17E4C051151960700FE6AE9 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		C17E4C091152570700FE6AE9 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		C17E4C0A1152570E00FE6AE9 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
 		C1809813114F1A2B00208269 /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
 		C1809815114F1A3200208269 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		C1809827114F1AD700208269 /* teapotn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teapotn.txt; sourceTree = "<group>"; };
@@ -173,6 +179,10 @@
 				C1809815114F1A3200208269 /* model.h */,
 				C1218912115075AD0009561B /* height_map.cpp */,
 				C1218914115075B40009561B /* height_map.h */,
+				C17E4C04115195FB00FE6AE9 /* vec3.h */,
+				C17E4C051151960700FE6AE9 /* vec3.cpp */,
+				C17E4C091152570700FE6AE9 /* camera.h */,
+				C17E4C0A1152570E00FE6AE9 /* camera.cpp */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -265,6 +275,8 @@
 				C18098D1114F1E5400208269 /* simple.frag in Sources */,
 				C106179511504202007110D5 /* intro.cpp in Sources */,
 				C1218913115075AD0009561B /* height_map.cpp in Sources */,
+				C17E4C061151960700FE6AE9 /* vec3.cpp in Sources */,
+				C17E4C0B1152570E00FE6AE9 /* camera.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
