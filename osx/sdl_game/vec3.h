@@ -1,3 +1,6 @@
+#ifndef __VEC3__
+#define __VEC3__
+
 template<typename T>
 class vec3
 {
@@ -35,3 +38,5 @@ public:
 	T distance (const vec3 &v) const { return (v - *this).length(); }	
 	
 };
+
+#endif
