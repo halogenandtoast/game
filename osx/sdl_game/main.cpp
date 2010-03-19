@@ -6,6 +6,7 @@
 #include "model.h"
 #include "glsl.h"
 #include "height_map.h"
+#include "vec3.h"
 
 #ifdef __APPLE__
 #include "CoreFoundation/CoreFoundation.h"
@@ -131,10 +132,7 @@ static void drawGL ()
 	glOrtho(0, gwidth, 0, gheight, -10.0, 10.0);
 	glRasterPos2f(5.0, 5.0);
 	
-	
-	
-	
-	sprintf(num_str, "%0.2f Hz, %dx%d", 1 / ((new_time - last_time) / 1000.0), gwidth, gheight);
+	sprintf(num_str, "%0.2f Hz, %dx%d", 1000.0 / (new_time - last_time), gwidth, gheight);
 	DrawStr(num_str);
 	glPopMatrix();
 	glMatrixMode(GL_MODELVIEW);

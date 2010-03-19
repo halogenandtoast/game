@@ -6,7 +6,7 @@ public:
 	vec3 () : x(0.0), y(0.0), z(0.0) {};
 	vec3 (T xc, T yc, T zc) : x(xc), y(yc), z(zc) {};
 	
-	vec3 operator = (const vec3 &c) { x = v.x; y = v.y; z = v.z; return *this; }
+	vec3 operator = (const vec3 &v) { x = v.x; y = v.y; z = v.z; return *this; }
 	vec3 operator - () const { return vec3(-x, -y, -z); }
 	vec3 operator + (const vec3 &v) const { return vec3(x + v.x, y + v.y, z + v.z); }
 	vec3 operator - (const vec3 &v) const { return vec3(x - v.x, y - v.y, z - v.z); }
@@ -34,4 +34,4 @@ public:
 	vec3 normalize() const { T l = 1/length(); return vec3(x * l, y * l, z * l); }
 	T distance (const vec3 &v) const { return (v - *this).length(); }	
 	
-}
+};
