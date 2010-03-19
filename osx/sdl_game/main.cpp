@@ -18,33 +18,16 @@ float ypos = 0.0f;
 float ydir = 0.05f;
 
 GLboolean Timing = GL_TRUE;
-GLenum StrMode = GL_VENDOR;
 
 int gheight, gwidth;
-
+int last_time, new_time;
 Model myModel1;
 HeightMap hm;
 static SDL_Surface *gScreen;
 
-static double mtime(void)
+static int mtime(void)
 {
-	struct timeval tk_time;
-	struct timezone tz;
-	
-	gettimeofday(&tk_time, &tz);
-	
-	return 4294.967296 * tk_time.tv_sec + 0.000001 * tk_time.tv_usec;
-}
-
-static double filter(double in, double *save)
-{
-	static double k1 = 0.9;
-	static double k2 = 0.05;
-	save[3] = in;
-	save[1] = save[0]*k1 + k2*(save[3] + save[2]);
-	save[0]=save[1];
-	save[2]=save[3];
-	return(save[1]);
+	return SDL_GetTicks();
 }
 
 void DrawStr(const char *str)
@@ -98,6 +81,7 @@ static void createSurface (int fullscreen)
 
 static void initGL ()
 {
+	angle = 1.0;
 	#ifdef __APPLE__    
 		// Let's look in the resources directory
 		CFBundleRef mainBundle = CFBundleGetMainBundle();
@@ -111,7 +95,7 @@ static void initGL ()
 	#endif
 	
 	hm.load((char *) "hm.gif");
-	
+	last_time = mtime();
 	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
 	GLuint prog_id = createGLSLProgram((char *) "simple.vert", (char *) "simple.frag");
 	glUseProgram(prog_id);
@@ -123,11 +107,8 @@ static void initGL ()
 
 static void drawGL ()
 {
-	static double t1 = 0.0, t2 = 0.0, t;
-	static double th[4] = {0.0, 0.0, 0.0, 0.0};
-	t1 = t2;
 	char num_str[128];
-	
+	new_time = mtime();
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glDepthFunc(GL_LESS);
     glEnable(GL_DEPTH_TEST);
@@ -137,31 +118,29 @@ static void drawGL ()
 	glPushMatrix();
 	glTranslatef(0.0, 0.0f, -10.0f);
 	glRotatef(180.0f, 0.0f, 1.0f, 0.0f);
-	glRotatef(angle, 0.0f, 1.0f, 0.0f);
+	glRotatef(angle + (120 * SDL_GetTicks() / 1000.0), 0.0f, 1.0f, 0.0f);
 	//hm.render();
 	myModel1.render();
 	glPopMatrix();
 	
-	if(Timing)
-	{
-		t2 = mtime();
-		t = t2 - t1;
-		if(t > 0.0001) t = 1.0 / t;
-		
-		glDisable(GL_LIGHTING);
-		glColor3f(1.0, 0.0, 0.0);
-		glMatrixMode (GL_PROJECTION);
-		glPushMatrix();
-		glLoadIdentity();
-		glOrtho(0, gwidth, 0, gheight, -10.0, 10.0);
-		glRasterPos2f(5.0, 5.0);
-		sprintf(num_str, "%0.2f Hz, %dx%d", filter(t, th), gwidth, gheight);
-		DrawStr(num_str);
-		glPopMatrix();
-		glMatrixMode(GL_MODELVIEW);
-		glEnable(GL_LIGHTING);
-	}
+	glDisable(GL_LIGHTING);
+	glColor3f(1.0, 0.0, 0.0);
+	glMatrixMode (GL_PROJECTION);
+	glPushMatrix();
+	glLoadIdentity();
+	glOrtho(0, gwidth, 0, gheight, -10.0, 10.0);
+	glRasterPos2f(5.0, 5.0);
 	
+	
+	
+	
+	sprintf(num_str, "%0.2f Hz, %dx%d", 1 / ((new_time - last_time) / 1000.0), gwidth, gheight);
+	DrawStr(num_str);
+	glPopMatrix();
+	glMatrixMode(GL_MODELVIEW);
+	glEnable(GL_LIGHTING);
+	
+	last_time = new_time;
 	glFlush();
 }
 
@@ -169,17 +148,8 @@ static void mainLoop ()
 {
     SDL_Event event;
     int done = 0;
-    int fps = 60;
-	int delay = 1000/fps;
-    int thenTicks = -1;
-    int nowTicks;
     
-    while ( !done ) {
-		angle += 1.0f;
-		if(angle > 360) {
-			angle -= 360;
-		}
-		
+    while ( !done ) {		
 		ypos += ydir;
 		if(ypos > 3.0f || ypos < -3.0f) ydir *= -1;
 		while ( SDL_PollEvent (&event) ) {
@@ -206,33 +176,14 @@ static void mainLoop ()
 			}
 		}
     
-        // Draw at 24 hz
-        //     This approach is not normally recommended - it is better to
-        //     use time-based animation and run as fast as possible
         drawGL ();
         SDL_GL_SwapBuffers ();
-
-        // Time how long each draw-swap-delay cycle takes
-        // and adjust delay to get closer to target framerate
-        if (thenTicks > 0) {
-            nowTicks = SDL_GetTicks ();
-            delay += (1000/fps - (nowTicks-thenTicks));
-            thenTicks = nowTicks;
-            if (delay < 0)
-                delay = 1000/fps;
-        }
-        else {
-            thenTicks = SDL_GetTicks ();
-        }
-
-        SDL_Delay (delay);
 	}
 }
 
 int main(int argc, char *argv[])
 {
 	pname = argv[0];
-	// Init SDL video subsystem
 	if ( SDL_Init (SDL_INIT_VIDEO) < 0 ) {
 		
         fprintf(stderr, "Couldn't initialize SDL: %s\n",
@@ -240,19 +191,10 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-    // Set GL context attributes
     initAttributes ();
-    
-    // Create GL context
     createSurface (0);
-	
-    // Init GL state
     initGL ();
-    
-    // Draw, get events...
     mainLoop ();
-    
-    // Cleanup
 	SDL_Quit();
 	
     return 0;
