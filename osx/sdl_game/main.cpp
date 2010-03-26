@@ -9,6 +9,8 @@
 #include "height_map.h"
 #include "vec3.h"
 #include "camera.h"
+#include "color.h"
+#include "light.h"
 
 #ifdef __APPLE__
 #include "CoreFoundation/CoreFoundation.h"
@@ -28,6 +30,7 @@ int last_time, new_time;
 Camera camera;
 Model myModel1;
 HeightMap hm;
+Light light;
 static SDL_Surface *gScreen;
 
 static int mtime(void)
@@ -93,6 +96,11 @@ static void initGL ()
 		CFRelease(resourcesURL);
 		chdir(path);
 	#endif
+	light.setPosition(vec3<float>(0.0,5.0,5.0));
+	light.setDiffuse(Color(1.0, 0.1, 0.1));
+	light.setAmbient(Color(1.0, 0.5, 0.5));
+	light.setSpecular(Color(1.0, 1.0, 1.0));
+	light.create();
 	hm.load((char *) "hm.gif");
 	last_time = mtime();
 	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);

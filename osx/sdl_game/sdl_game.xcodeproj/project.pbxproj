@@ -27,6 +27,7 @@
 		C18098A7114F1E2300208269 /* glsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18098A6114F1E2300208269 /* glsl.cpp */; };
 		C18098AC114F1E4500208269 /* simple.vert in Sources */ = {isa = PBXBuildFile; fileRef = C18098AB114F1E4500208269 /* simple.vert */; };
 		C18098D1114F1E5400208269 /* simple.frag in Sources */ = {isa = PBXBuildFile; fileRef = C18098D0114F1E5400208269 /* simple.frag */; };
+		C1C16B09115C23F900AFB524 /* light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C16B08115C23F900AFB524 /* light.cpp */; };
 		FB28BEC9114FE06A00651DD8 /* simple.vert in Resources */ = {isa = PBXBuildFile; fileRef = C18098AB114F1E4500208269 /* simple.vert */; };
 		FB28BECA114FE06A00651DD8 /* simple.frag in Resources */ = {isa = PBXBuildFile; fileRef = C18098D0114F1E5400208269 /* simple.frag */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,9 @@
 		C18098A8114F1E3300208269 /* glsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glsl.h; sourceTree = "<group>"; };
 		C18098AB114F1E4500208269 /* simple.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simple.vert; sourceTree = "<group>"; };
 		C18098D0114F1E5400208269 /* simple.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simple.frag; sourceTree = "<group>"; };
+		C1C16AFE115C1F7D00AFB524 /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		C1C16B03115C236000AFB524 /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		C1C16B08115C23F900AFB524 /* light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,9 @@
 				C17E4C04115195FB00FE6AE9 /* vec3.h */,
 				C17E4C091152570700FE6AE9 /* camera.h */,
 				C17E4C0A1152570E00FE6AE9 /* camera.cpp */,
+				C1C16AFE115C1F7D00AFB524 /* light.h */,
+				C1C16B03115C236000AFB524 /* color.h */,
+				C1C16B08115C23F900AFB524 /* light.cpp */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 				C106179511504202007110D5 /* intro.cpp in Sources */,
 				C1218913115075AD0009561B /* height_map.cpp in Sources */,
 				C17E4C0B1152570E00FE6AE9 /* camera.cpp in Sources */,
+				C1C16B09115C23F900AFB524 /* light.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

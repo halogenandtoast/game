@@ -4,14 +4,17 @@ varying vec3 lightDir;
 
 void main()
 {	
-	vec3 lightPos = vec3(0.0,0.0,-3.0);
-	vec3 lightDir = normalize(vec3(1,1,1));
+	vec3 L = normalize(gl_LightSource[0].position.xyz - pointPos);
+	vec3 E = normalize(-pointPos);
+	vec3 R = normalize(-reflect(L, normal));
 	
-	float s = 0.1;
-	vec3 illumDir = normalize(lightPos-pointPos);
-	float diffuse = max(dot(normal, illumDir), 0.0);
-	vec3 tricol = diffuse * vec3(1.0,0.5,0.3);
+	vec4 Iamb = gl_FrontLightProduct[0].ambient;
 	
-	//gl_FragColor = vec4(vec3(0.5) + vec3(0.5) * normal, 1.0); // visualize normals
-	gl_FragColor = vec4(pow(max(dot(reflect(illumDir, normal), lightDir), 0.0), s) * tricol, 1.0) + vec4(tricol, 1.0);
+	vec4 Idiff = gl_FrontLightProduct[0].diffuse * max(dot(normal, L), 0.0);
+	Idiff = clamp(Idiff, 0.0, 1.0);
+	
+	vec4 Ispec = gl_FrontLightProduct[0].specular * pow(max(dot(R, E), 0.0), 0.3 * gl_FrontMaterial.shininess);
+	Ispec = clamp(Ispec, 0.0, 1.0);
+	
+	gl_FragColor = gl_FrontLightModelProduct.sceneColor + Iamb + Idiff + Ispec;
 }
